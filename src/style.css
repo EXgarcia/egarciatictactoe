@@ -1,0 +1,66 @@
+.Background{
+    background-image: url(./assets/zmaGlS.webp);
+    background-size: cover;
+    overflow-y: hidden;
+    height: 713px;
+}
+
+.Title, .status{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.board-row, .button{
+    display: flex;
+    justify-content: center;
+
+}
+
+.square {
+    background: #588457e9;
+    border: 1px solid #44ff00;
+    float: left;
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 200px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+    border-radius: 20px;
+  }
+
+  
+.sound {
+  background-image: url(./components/musicComponent/assets/play.webp);
+  height:100px;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255,0.75);
+  width:100px;
+  position: absolute;
+  background-size: cover;
+  border-radius: 300px;
+  margin-top:15rem;
+}
+
+.sound:hover{
+  transform: translateY(-2px);
+}
+.mute {
+  background-image: url(./components/musicComponent/assets/pause.png);
+  height:100px;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255,0.75);
+  width:100px;
+  position: absolute;
+  background-size: cover;
+  border-radius: 300px;
+  margin-top:15rem;
+}
+
+.mute:hover{
+  transform: translateY(-2px);
+}
